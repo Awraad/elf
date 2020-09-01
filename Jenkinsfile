@@ -29,7 +29,7 @@ spec:
               container('kubectl') {
                   sh '''
 			source elastic.sh
-			kubectl --token=$TOKEN get all -n omega
+			kubectl --token=$TOKEN get all -n jenkins
 			kubectl --token=$TOKEN get pods
 		      '''
               }
