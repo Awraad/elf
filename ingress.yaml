@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   name: cluster
-  namespace: rho
+  namespace: elf-rho
   annotations:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
