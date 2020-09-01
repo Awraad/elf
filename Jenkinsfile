@@ -28,7 +28,7 @@ spec:
           steps {
               container('kubectl') {
                   sh '''
-			source rho.sh
+			source elf.sh
 			kubectl --token=$TOKEN get all -n elf
 			kubectl --token=$TOKEN get pods
 		      '''
