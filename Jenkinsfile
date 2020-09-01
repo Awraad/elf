@@ -29,7 +29,7 @@ spec:
               container('kubectl') {
                   sh '''
 			source rho.sh
-			kubectl --token=$TOKEN get all -n rho
+			kubectl --token=$TOKEN get all -n elf-rho
 			kubectl --token=$TOKEN get pods
 		      '''
               }
